@@ -1,4 +1,4 @@
-# Limitd NFT Marketplace - Flow Contracts
+# NFT Marketplace - Flow Contracts
 
 This code repository has been created with the objective of exposing the smart contract functionalities included in the NFT Marketplace for Limitd.
 
