@@ -4,7 +4,6 @@ export const INITIALIZE = `
   import FungibleToken from 0xFungibleToken
   import NonFungibleToken from 0xNonFungibleToken
   import FUSD from 0xFUSD
-
   pub fun hasFUSD(_ address: Address): Bool {
     let receiver = getAccount(address)
       .getCapability<&FUSD.Vault{FungibleToken.Receiver}>(/public/fusdReceiver)
