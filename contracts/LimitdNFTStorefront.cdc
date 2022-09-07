@@ -25,7 +25,6 @@ pub contract LimitdNFTStorefront {
     // NFTStorefrontInitialized
     // This contract has been deployed.
     // Event consumers can now expect events from this contract.
-    //
     pub event NFTStorefrontInitialized()
 
     // StorefrontInitialized
@@ -101,7 +100,6 @@ pub contract LimitdNFTStorefront {
             self.amount = amount
         }
     }
-
 
     // SaleOfferDetails
     // A struct containing a SaleOffer's data.
