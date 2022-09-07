@@ -1,5 +1,4 @@
 /**
-
 ## The Flow Non-Fungible Token standard
 
 ## `NonFungibleToken` contract interface
@@ -38,7 +37,6 @@ smart contract.
 To send an NFT to another user, a user would simply withdraw the NFT
 from their Collection, then call the deposit function on another user's
 Collection to complete the transfer.
-
 */
 
 // The main NFT contract interface. Other NFT contracts will
